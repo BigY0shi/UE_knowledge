@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UE5 Knowledge Base | Searchable Repository Database</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>UE5 Knowledge Base</h1>
+      <p>Curated long-form documentation for Unreal Engine 5.6 / 5.7</p>
+      <input id="search" type="search" placeholder="Search repos, topics, tags, audience..." autofocus />
+    </div>
+  </header>
+
+  <section class="filters">
+    <div class="filter-group">
+      <label for="difficultyFilter">Difficulty:</label>
+      <select id="difficultyFilter">
+        <option value="">All levels</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="formatFilter">Format:</label>
+      <select id="formatFilter">
+        <option value="">All formats</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="topicFilter">Topic:</label>
+      <select id="topicFilter">
+        <option value="">All topics</option>
+      </select>
+    </div>
+  </section>
+
+  <main>
+    <div id="stats" class="stats"></div>
+    <div id="repoList" class="repo-list"></div>
+  </main>
+
+  <footer>
+    <p>Data sourced from GitHub. Last updated June 2026. <a href="https://github.com/BigY0shi/UE_knowledge">View on GitHub</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
