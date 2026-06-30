@@ -18,7 +18,6 @@ Search, filter, and explore all repositories by topic, difficulty, format, and a
 | [Unreal-Engine-5-C-Expert-Skills](https://github.com/mrSutivu/Unreal-Engine-5-C-Expert-Skills) | Advanced C++ Knowledge Bank | Advanced | C++ patterns, memory, GAS, multiplayer |
 | [gamedevguide](https://github.com/ikrima/gamedevguide) | Production Notes | Intermediate–Advanced | Deep technical knowledge, engine programming, packaging |
 | [UE5-Guide](https://github.com/djklesk/UE5-Guide) | Quick Reference Guide | Beginner | Quick lookups, common tasks, tips |
-| [MarkdownAsset](https://github.com/gwaredd/MarkdownAsset) | Documentation Tool | Intermediate | In-project documentation, team knowledge bases |
 
 ## 📊 Data Formats
 
@@ -46,6 +45,7 @@ This repository **intentionally excludes**:
 - Sample game repositories
 - Starter kits and templates
 - Code-only examples without substantial written guidance
+- Tooling/plugins that do not materially add long-form written UE knowledge
 
 ## 🚀 Setup
 
